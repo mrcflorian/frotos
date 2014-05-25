@@ -21,10 +21,7 @@ public class Main {
 		Options options = new Options();
 		
 		options.addOption(new Option("l", "lang", true, "language used"));
-		options.addOption(new Option("d", "docs", true, "documents to index"));
-		options.addOption(new Option("s", "search", true, "text to search for"));
-		options.addOption(new Option("i", "index", true, "path to index if not in memory"));
-		
+
 		Parser parser = new BasicParser();
 		try {
 			return parser.parse(options, arguments);
