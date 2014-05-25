@@ -1,4 +1,0 @@
-intervention
-============
-
-InterventionApp
