@@ -7,6 +7,9 @@ function autocomplete(query, action, container, input, is_support_group)
 	if (query == '') {
 		container.fadeOut();
 		container.empty();
+		$('#id').fadeIn();
+		$('#test').fadeOut();
+		$('#spinner').show();
 		return;
 	}
 	var path = interventionURL + 'api/autocomplete.php?query=' + query + '&' + 'action=' + action;
