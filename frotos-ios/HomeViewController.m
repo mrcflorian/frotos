@@ -1,10 +1,3 @@
-//
-//  HomeViewController.m
-//  Intervention
-//
-//  Created by Florian Marcu on 3/20/14.
-//  Copyright (c) 2014 Florian Marcu. All rights reserved.
-//
 
 #import "HomeViewController.h"
 #import <FacebookSDK/FacebookSDK.h>
@@ -17,6 +10,7 @@
 
 @implementation HomeViewController
 
+/* Aceasta metoda initializeaza view controller-ul */
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];

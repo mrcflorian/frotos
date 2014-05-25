@@ -4,6 +4,10 @@ include_once($root.'controllers/FacebookApi.php');
 
 $session =  Session::getInstance();
 $fb = FacebookApi::getInstance();
+if (!$fb || !$session) {
+	// not supposed to be here
+	die();
+}
 if ($session->is_logged_in() || $fb->isAuthentificated())
 {
     $session->logout();
