@@ -1,10 +1,3 @@
-//
-//  TabBarViewController.m
-//  Intervention
-//
-//  Created by Florian Marcu on 3/20/14.
-//  Copyright (c) 2014 Florian Marcu. All rights reserved.
-//
 
 #import "TabBarViewController.h"
 #import "HomeViewController.h"
@@ -28,6 +21,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+	[_account update];
 	// Do any additional setup after loading the view.
 }
 
