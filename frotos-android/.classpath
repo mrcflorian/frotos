@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="/Users/Florian/Downloads/lucene-4.8.1/core/lucene-core-4.8.1.jar"/>
+	<classpathentry kind="lib" path="/Users/Florian/Downloads/lucene-4.8.1/queries/lucene-queries-4.8.1.jar"/>
+	<classpathentry kind="lib" path="/Users/Florian/Downloads/lucene-4.8.1/replicator/lucene-replicator-4.8.1.jar"/>
+	<classpathentry kind="lib" path="/Users/Florian/Downloads/lucene-4.8.1/queryparser/lucene-queryparser-4.8.1.jar"/>
+	<classpathentry kind="lib" path="/Users/Florian/Downloads/tika-app-1.5.jar"/>
+	<classpathentry kind="lib" path="/Users/Florian/Downloads/lucene-4.8.1/codecs/lucene-codecs-4.8.1.jar"/>
+	<classpathentry kind="lib" path="/Users/Florian/Downloads/lucene-4.8.1/expressions/lucene-expressions-4.8.1.jar"/>
+	<classpathentry kind="lib" path="/Users/Florian/Downloads/lucene-4.8.1/analysis/common/lucene-analyzers-common-4.8.1.jar"/>
+	<classpathentry kind="lib" path="/Users/Florian/Downloads/lucene-4.8.1/analysis/phonetic/lucene-analyzers-phonetic-4.8.1.jar"/>
+	<classpathentry kind="lib" path="/Users/Florian/Downloads/lucene-4.8.1/analysis/morfologik/lucene-analyzers-morfologik-4.8.1.jar"/>
+	<classpathentry kind="lib" path="/Users/Florian/Downloads/commons-cli-1.2/commons-cli-1.2.jar"/>
+	<classpathentry kind="lib" path="/Users/Florian/Downloads/commons-io-2.4/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="/Users/Florian/Downloads/commons-lang3-3.3.2/commons-lang3-3.3.2.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
